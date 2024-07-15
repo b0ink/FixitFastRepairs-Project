@@ -1,0 +1,10 @@
+{
+    "battery": "Battery",
+    "screen": "Screen",
+    "backcamera": "Back Camera",
+    "chargingport": "Charging Port",
+    "speaker": "Speaker",
+    "housing": "Housing",
+    "homebutton": "Home Button",
+    "frontcamera": "Front Camera"
+}

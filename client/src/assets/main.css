@@ -1,0 +1,61 @@
+@import './base.css';
+
+#app {
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    /* padding: 2rem; */
+
+    font-weight: normal;
+}
+
+a,
+.green {
+    text-decoration: none;
+    color: hsla(160, 100%, 37%, 1);
+    transition: 0.4s;
+}
+
+svg.filled {
+    /* color: hsla(160, 100%, 37%, 1); */
+    color: #38acda;
+    color: #fff;
+    /* color: #737cff; */
+}
+
+main {
+    min-height: 700px;
+}
+
+#submit {
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 50px;
+    border: 2px solid #0083b5;
+    background-color: white;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 250ms ease-in-out;
+    /* color: black; */
+    color: #0083b5;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 
+#button.disabled {
+    pointer-events: none;
+    cursor: default;
+    border: 1px solid grey;
+    color: grey;
+    font-weight: normal;
+} */
+
+#submit:hover {
+    background-color: #0083b5;
+    color: white;
+}

@@ -1,0 +1,34 @@
+form .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+form .form-row input,
+textarea {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border: none;
+    border-bottom: 2px solid #d8d8d8;
+}
+form textarea {
+    height: 150px;
+    resize: none;
+    /* outline: 0; */
+}
+form .form-row.small {
+    width: calc(50% - 25px / 2);
+}
+form #submit {
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+    border: 2px solid #0083b5;
+    color: black;
+}

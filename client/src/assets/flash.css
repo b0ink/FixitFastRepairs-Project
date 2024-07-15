@@ -1,0 +1,45 @@
+._vue-flash-msg-body__title {
+    font-weight: bold;
+}
+._vue-flash-msg-body {
+    /* position: absolute; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    padding: 10px !important;
+    z-index: 9999;
+    max-width: 450px;
+    transition: none !important;
+}
+._vue-flash-msg-body_error {
+    background-color: rgba(241, 34, 34, 1) !important;
+}
+
+._vue-flash-msg-body_success {
+    background-color: rgba(1, 148, 122, 1) !important;
+}
+._vue-flash-msg-body_warning {
+    background-color: rgba(241, 139, 34, 0.68) !important;
+}
+._vue-flash-msg_left-top {
+    top: 50px;
+    /* right: 100% !important; */
+    left: calc(100% - 50px) !important;
+    transform: translateX(calc(-100% + 25px)) !important;
+    /* transform: translateX(50px) !important; */
+}
+
+/* Add a close button (X) to the top right corner */
+._vue-flash-msg-body::after {
+    content: '×';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+/* Style the close button */
+._vue-flash-msg-body::after:hover {
+    color: red; /* Change color on hover */
+}
